@@ -161,7 +161,7 @@ export default function Home() {
         />
         <div className="absolute inset-0 bg-gradient-to-b from-warm-50/90 to-warm-50/95" />
         {/* Hero image - mobile: full background, desktop: right side */}
-        <div className="absolute inset-0 md:left-1/2">
+        <div className="absolute top-14 bottom-0 left-0 right-0 md:left-1/2">
           <Image
             src="/hero-placeholder.jpg"
             alt="SWANREA technician"
